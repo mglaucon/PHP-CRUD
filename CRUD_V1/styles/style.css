@@ -47,3 +47,25 @@ input[type=submit]:hover{
     color: white;
     font-weight: bolder;
 }
+
+table{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+th{
+    border: 1px solid white;
+}
+td{
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+}
+thead{
+    background-color: lightgray;
+}
+table > tbody > tr:nth-child(1n):hover{
+    background-color: lightgray;
+    
+}
