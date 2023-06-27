@@ -69,3 +69,20 @@ table > tbody > tr:nth-child(1n):hover{
     background-color: lightgray;
     
 }
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+a:hover{
+    background-color: lightcoral;
+}

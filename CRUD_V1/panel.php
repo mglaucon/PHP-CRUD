@@ -1,3 +1,7 @@
+<?php 
+    $menu = ['Home'=>'home.php','Cadastrar'=>'cadastrar.php','Editar'=>'editar.php','Excluir'=>'excluir.php'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,6 +11,17 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <?php 
+                    foreach ($menu as $key => $value) {
+                        echo "<a href='$key'><li>".$value."</li></a>";
+                    }
+                ?>
+            </ul>
+        </nav>
+    </header>
     <a href="logout.php">Sair</a>
     <?php 
         include('valid_login.php');
