@@ -1,36 +1,33 @@
-html, body{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.conteiner{
-    display: grid;
-    grid-template-areas: "h h h h""a m m m""f f f f";
-    grid-template-rows: 20% auto 10%;
-    gap: 10px;
+/* .conteiner{
     width: 100vw;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+} */
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 70vh;
 }
 
-header{
-    grid-area: h;
+.principal > aside{
+    width: 20vw;
     background-color: brown;
 }
 
-aside{
-    grid-area: a;
-    background-color: brown;
-}
-
-main{
-    grid-area: m;
+.principal > main{
+    width: 80vw;
     background-color: brown;
 }
 
 footer{
-    grid-area: f;
+    width: 100vw;
+    height: 10vh;
     background-color: brown;
 }

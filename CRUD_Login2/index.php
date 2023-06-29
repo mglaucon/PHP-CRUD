@@ -8,9 +8,10 @@
 </head>
 <body>
     <div class="conteiner">
-        <header>h</header>
-        <aside>a</aside>
-        <main>m</main>
+        <div class="principal">
+            <aside>a</aside>
+            <main>m</main>
+        </div>
         <footer>f</footer>
     </div>
 </body>
